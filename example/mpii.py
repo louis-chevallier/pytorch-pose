@@ -3,8 +3,9 @@ from __future__ import print_function, absolute_import
 import os
 import argparse
 import time
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
 import torch
 import torch.nn.parallel
 import torch.backends.cudnn as cudnn
